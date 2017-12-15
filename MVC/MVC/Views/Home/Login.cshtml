@@ -1,0 +1,8 @@
+﻿@model MVC.Models.User
+
+@{
+    ViewBag.Title = "Авторизация";
+}
+<p>Логин @Html.TextBox("Login")</p>
+<p>Пароль @Html.Password("Password")</p>
+<p>@Html.ActionLink("Войти", "Reserve", "Home")</p>
